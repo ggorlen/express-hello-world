@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>matterjs-socketio</title>
+    <meta name="description" content="matter.js + socket.io demo">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    
+    <div id="main">
+      <canvas width="300" height="200" id="game"></canvas>
+      <p>
+        Grab a friend (or open another window) and click to agitate the boxes. 
+        <span id="online">0</span> users online.
+      </p>
+      <p>
+        Made with <a href="https://brm.io/matter-js">matter.js</a> and <a href="https://socket.io/">socket.io</a>.
+      </p>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
+    <script src="/client.js" defer></script>
+    
+  </body>
+</html>

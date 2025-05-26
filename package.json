@@ -2,18 +2,20 @@
   "name": "express-hello-world",
   "version": "1.0.0",
   "description": "Express Hello World on Render",
-  "main": "app.js",
+  "main": "server.js",
   "repository": "https://github.com/render-examples/express-hello-world",
   "author": "Render Developers",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.19.2",
+    "matter-js": "^0.20.0",
+    "socket.io": "^4.6.1"
   },
   "engines": {
-    "node": ">=14"
+    "node": "22.x"
   }
 }
